@@ -1,0 +1,215 @@
+.easy {
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.easy__left {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+}
+
+.easy__left h2 {
+    color: #495567;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+}
+
+.easy__left h4 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 24px 0 40px 0;
+    color: #939CAA;
+}
+
+.easy__left button {
+    background-color: #FCB72B;
+    border: none;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    height: 53px;
+    color: #fff;
+}
+
+.easy__left button:hover {
+    background-color: transparent;
+    border: 3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+.easy__right,
+.easy__right2 {
+    width: 740px;
+    height: 449.94px;
+    position: absolute;
+    right: 0;
+}
+
+.easy__right2 {
+    display: none;
+}
+
+.easy__right3 {
+    display: none;
+}
+
+@include for-large-desktop {
+    .easy {
+        display: flex;
+        padding-top: 200px;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .easy__left {
+        max-width: 573px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 56px;
+        width: 100%;
+    }
+    .easy__left h2 {
+        color: #495567;
+        width: 457px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.142857074737549px;
+        text-align: center;
+    }
+    .easy__left h4 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 24px 0 40px 0;
+        color: #939CAA;
+    }
+    .easy__left button {
+        background-color: #FCB72B;
+        border: none;
+        width: 180px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.5s;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        height: 53px;
+        color: #fff;
+    }
+    .easy__left button:hover {
+        background-color: transparent;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+    .easy__right {
+        width: 740px;
+        height: 449.94px;
+        position: static;
+        right: 0;
+        display: none;
+    }
+    .easy__right2,
+    .easy__right3 {
+        display: inline-block;
+        position: relative;
+        right: 0;
+        width: 734px;
+        height: 445px;
+    }
+    .easy__right3 {
+        display: none;
+    }
+}
+
+@include for-mobile {
+    .easy {
+        display: flex;
+        padding-top: 120px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .easy__left {
+        max-width: 573px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 56px;
+        width: 100%;
+    }
+    .easy__left h2 {
+        color: #495567;
+        width: 311px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -1.4285714626312256px;
+        text-align: center;
+    }
+    .easy__left h4 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 32px 0 32px 0;
+        color: #939CAA;
+    }
+    .easy__left button {
+        background-color: #FCB72B;
+        border: none;
+        width: 180px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.5s;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        height: 53px;
+        color: #fff;
+    }
+    .easy__left button:hover {
+        background-color: transparent;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+    .easy__right {
+        width: 740px;
+        height: 449.94px;
+        position: static;
+        right: 0;
+        display: none;
+    }
+    .easy__right2 {
+        display: none;
+    }
+    .easy__right3 {
+        display: block;
+        position: relative;
+        width: 342px;
+        height: 311px;
+        margin: 0 auto;
+    }
+}

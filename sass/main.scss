@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.container {
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 33px;
+}
+
+@import './fonts';
+@import './variables';
+@import './mixins';
+@import './all-blocks/header';
+@import './all-blocks/locate';
+@import './all-blocks/easy';
+@import './all-blocks/coming';
+@import './all-blocks/zero';
+@import './all-blocks/sign';
+@import './all-blocks/footer';

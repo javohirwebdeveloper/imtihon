@@ -1,0 +1,199 @@
+.locate {
+    padding-top: 160px;
+}
+
+.locate__wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+.locate__wrapper-left,
+.locate__wrapper-center,
+.locate__wrapper-right {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.locate__wrapper-left img,
+.locate__wrapper-center img,
+.locate__wrapper-right img {
+    width: 96px;
+    height: 96px;
+}
+
+.locate__wrapper-left h3,
+.locate__wrapper-center h3,
+.locate__wrapper-right h3 {
+    font-size: 24px;
+    color: #495567;
+    margin: 40px 0 27px 0;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+}
+
+.locate__wrapper-left h4,
+.locate__wrapper-center h4,
+.locate__wrapper-right h4 {
+    color: #939CAA;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.locate__bg-left {
+    position: absolute;
+    z-index: -1;
+    margin-top: 41px;
+    max-width: 974px;
+    width: 100%;
+}
+
+.locate__bg-top {
+    display: none;
+}
+
+@include for-tablet {
+    .locate__bg-left {
+        display: none;
+    }
+    .locate__bg-top {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        margin-left: 88px;
+        margin-top: -122px;
+    }
+    .locate {
+        padding-top: 122px;
+    }
+    .locate__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    .locate__wrapper-left,
+    .locate__wrapper-center,
+    .locate__wrapper-right {
+        display: flex;
+        flex-direction: row;
+        column-gap: 79px;
+        width: 573px;
+    }
+    .locate__wrapper-left img,
+    .locate__wrapper-center img,
+    .locate__wrapper-right img {
+        width: 96px;
+        height: 96px;
+    }
+    .locate__wrapper-left h3,
+    .locate__wrapper-center h3,
+    .locate__wrapper-right h3 {
+        font-size: 24px;
+        color: #495567;
+        margin: 0 0 27px 0;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+    }
+    .locate__wrapper-left h4,
+    .locate__wrapper-center h4,
+    .locate__wrapper-right h4 {
+        color: #939CAA;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Lexend Deca', sans-serif;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .locate__bg-left {
+        display: none;
+    }
+    .locate__wrapper-left-text,
+    .locate__wrapper-center-text,
+    .locate__wrapper-right-text {
+        max-width: 398px;
+    }
+}
+
+@include for-mobile {
+    .locate__bg-left {
+        display: none;
+    }
+    .locate__bg-top {
+        display: block;
+        position: absolute;
+        display: none;
+        z-index: -1;
+        margin-left: 88px;
+        margin-top: -122px;
+    }
+    .locate {
+        padding-top: 122px;
+    }
+    .locate__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    .locate__wrapper-left,
+    .locate__wrapper-center,
+    .locate__wrapper-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 79px;
+        width: 573px;
+    }
+    .locate__wrapper-left img,
+    .locate__wrapper-center img,
+    .locate__wrapper-right img {
+        width: 56px;
+        height: 56px;
+    }
+    .locate__wrapper-left h3,
+    .locate__wrapper-center h3,
+    .locate__wrapper-right h3 {
+        font-size: 24px;
+        color: #495567;
+        margin-top: 24px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.8928571343421936px;
+        text-align: center;
+    }
+    .locate__wrapper-left h4,
+    .locate__wrapper-center h4,
+    .locate__wrapper-right h4 {
+        color: #939CAA;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .locate__bg-left {
+        display: none;
+    }
+    .locate__wrapper-left-text,
+    .locate__wrapper-center-text,
+    .locate__wrapper-right-text {
+        max-width: 398px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
